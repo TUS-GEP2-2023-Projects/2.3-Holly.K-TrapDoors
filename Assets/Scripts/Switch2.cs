@@ -6,6 +6,7 @@ public class Switch2 : MonoBehaviour
 {
     public bool switchOn;
 
+
     void Start()
     {
 

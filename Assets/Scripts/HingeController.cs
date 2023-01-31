@@ -6,7 +6,8 @@ using UnityEngine;
 public class HingeController : MonoBehaviour
 {
     private HingeJoint2D hinge;
-    public bool switchOn;
+    public Switch2 myScript;
+    //public bool switchOn;
 
     // Start is called before the first frame update
     void Start()
@@ -20,10 +21,11 @@ public class HingeController : MonoBehaviour
     void Update()
     {
             //hinge.motor = motor
-        if (switchOn == true)
+        if (myScript.switchOn == true)
         {
             var motor = hinge.motor;
-            motor.motorSpeed = 3;
+            motor.motorSpeed = 90;
+            hinge.motor = motor;
         }
         //else if (switchOn == false)
        // {
