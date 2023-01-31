@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class HingeController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private HingeJoint2D hinge;
+
+  // Start is called before the first frame update
+  void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
