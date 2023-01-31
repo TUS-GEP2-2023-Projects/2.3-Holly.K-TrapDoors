@@ -25,10 +25,10 @@ public class HingeController : MonoBehaviour
             var motor = hinge.motor;
             motor.motorSpeed = 3;
         }
-        else if (switchOn == false)
-        {
-            var motor = hinge.motor;
-            motor.motorSpeed = -3;
-        }
+        //else if (switchOn == false)
+       // {
+        //    var motor = hinge.motor;
+       //     motor.motorSpeed = -3;
+      //  }
     }
 }

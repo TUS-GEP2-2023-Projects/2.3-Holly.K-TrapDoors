@@ -24,14 +24,4 @@ public class Switch2 : MonoBehaviour
             Debug.Log("Automatic Switch On hun xx");
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player" && switchOn == true)
-        {
-            switchOn = false;
-
-            Debug.Log("Wake up hun, automatic switch is off!");
-        }
-    }
 }
